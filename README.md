@@ -1,17 +1,15 @@
 # Desafio Postulantes
 
-Con el fin de seleccionar a nuestros 2 developers, tenemos el siguente desafio.
+Para poder ejecutar esta solución es necesario tener instalado el navegador [Google Chrome](https://www.google.com/chrome/) y [Python 3](https://www.python.org/downloads/)
 
-De la siguente URL [Link](https://www.sii.cl/servicios_online/1047-nomina_inst_financieras-1714.html) es necesario crear un código que sea capaz de parsear la pagina web y devolver un json con esta información.
-![image](https://user-images.githubusercontent.com/3030497/164536276-9eb79d10-4fb0-4943-a15f-2536a8586330.png)
+Para instalar los requerimientos y ejecutar use en una terminal:
+```
+$ pip install -r requirements.txt
+$ py app.py
+``` 
 
-El JSON de respuesta puede venir en el formato que estimes conveniente.
+Se generará un archivo llamado `siidata.json` con la información requerida
 
-## Preguntas Frecuentes
+---
 
-- Tipos de entrega, cualquiera de los siguiente sirve
-  - API caso generico
-  - API caso particular
-  - Script para el caso particular
-- Lenguaje: El que más te guste
-- Plazo de Entrega: Indefinido, iremos entrevistando a los que van terminando primero.
+Solución por: Matías Allende Pino
